@@ -20,6 +20,7 @@
             height: 2px; left: 50%; position: absolute; background: #fff; transition: width 0.3s ease 0s, left 0.3s ease 0s;
             width: 0;}
             a:hover:after {width: 100%;  left: 0; }
+            div{display: flex; align-items: center; justify-content: center; width: 100%;}
         </style>
     </head>
 
@@ -46,13 +47,13 @@
             </nav>
   
   
-  
+  <div>
   <!-- 
   This <script> tag links to the Embedding API library as a JavaScript ES6 module. 
   To use the library in your web application, you need to set the type attribute to 
   module in the <script> tag. 
   -->
-
+    
   <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 
   <!-- 
@@ -61,6 +62,6 @@
   -->
 
   </tableau-viz><div class='tableauPlaceholder' id='viz1650331512800' style='position: relative; margin: 0 auto;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Production_16498898701730&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Production_16498898701730&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Production_16498898701730&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650331512800');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='950px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1250px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='950px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1250px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='2200px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-    
+   </div>
     </body>
 </html>
